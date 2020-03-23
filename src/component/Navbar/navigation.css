@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    height: 8%;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #39CCCC;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.header-logo {
+    height: 70px;
+    width: 90px;
+    margin-left: 20%;
+}
+
+.header-left{ 
+    display: inline;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2%;
+}
+
+.header-a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    color: lightsteelblue;
+    font-size: 28px;
+}
